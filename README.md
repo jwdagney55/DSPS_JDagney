@@ -1,2 +1,2 @@
 # DSPS_JDagney
-UDEL PHYS461 Course
+UD PHYS461 Course
