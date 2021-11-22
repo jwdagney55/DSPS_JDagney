@@ -14,7 +14,7 @@ which is a list set initially to [1,2,3,4,5,6,7,8,9,10].
 
 
 The Gradient Boosted Trees almost always out performed the Random Forest, however, the execution time for the Gradient Boosted Trees was 
-qualitatively longer than the Random Forest. The regression models were not as effective in predicting as the classification models. This may have to do with the fact that
+quantitatively longer than the Random Forest. The regression models were not as effective in predicting as the classification models. This may have to do with the fact that
 the regression models were predicting a continuous variable, while the classification models were predicting out of 3 types. 
 
 -Jarod Dagney
