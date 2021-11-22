@@ -7,10 +7,10 @@ I then read in the data from the provided training set from training.csv.
 I dropped the rows that had any -999.0 values in it as these were invalid data. This decision dropped 
 a lot of the provided data, 250,000 entries to around 68,000 entries. 
 
-There is one cell of code that must run for approximately <strong>30 minutes</strong>, for this I apologize. 
+There is one cell of code that must run for approximately <strong>10 minutes</strong>, for this I apologize. 
 I was interested in seeing where the max depth of the regressors did not continue to have a better testing score, and made trees
-with a max depth from 1 to 10. You can change the amount of max depths trials by changing the variable treeDepths
-which is a list set initially to [1,2,3,4,5,6,7,8,9,10].
+with a max depth from 1 to 10 originally. To limit the amount of time it will take for you to run the code, I changed the variable treeDepths
+to initially be set to [2,3,4]. For a more complete analysis of the models, I did run it for all 10 depths.
 
 
 The Gradient Boosted Trees almost always out performed the Random Forest, however, the execution time for the Gradient Boosted Trees was 
